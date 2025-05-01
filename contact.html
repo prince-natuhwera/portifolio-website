@@ -101,6 +101,8 @@
                     <p>Have a question or want to work together? Use the form below to get started.</p>
                     
                     <form id="contactForm" name="contact" method="POST" data-netlify="true">
+                        <input type="hidden" name="form-name" value="contact">
+                        
                         <div class="form-group">
                             <label for="name">Name</label>
                             <input type="text" id="name" name="name" required>
@@ -130,7 +132,8 @@
                         
                         <button type="submit" class="btn btn-primary">Send Message</button>
                         <div id="form-status"></div>
-                    </form>
+                      </form>
+                      
                 </div>
             </div>
         </div>
